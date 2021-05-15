@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://use.fontawesome.com/a05dfa2334.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Todos</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="text-centre text-light my-4">
+        <h1 class="mb-4">Todo List</h1>
+        <form class="search">
+          <input
+            class="form-control m-auto"
+            type="text"
+            name="search"
+            placeholder="search todos"
+          />
+        </form>
+      </header>
+      <ul class="list-group todos mx-auto text-light">
+        <li
+          class="
+            list list-group-item
+            d-flex
+            justify-content-between
+            align-item-centre
+          "
+        >
+          <span>Play marioart</span>
+          <i class="fa fa-trash-o" aria-hidden="true"></i>
+        </li>
+        <li
+          class="
+            list list-group-item
+            d-flex
+            justify-content-between
+            align-item-centre
+          "
+        >
+          <span>Watch football match</span>
+          <i class="fa fa-trash-o" aria-hidden="true"></i>
+        </li>
+        <li
+          class="
+            list list-group-item
+            d-flex
+            justify-content-between
+            align-item-centre
+          "
+        >
+          <span>Buy electronics</span>
+          <i class="fa fa-trash-o" aria-hidden="true"></i>
+        </li>
+      </ul>
+
+      <form class="add text-center my-4">
+        <label class="text-light">Add a new todo...</label>
+        <input type="text" class="form-control m-auto" name="add" />
+      </form>
+    </div>
+
+    <script src="sanbox.js"></script>
+  </body>
+</html>
